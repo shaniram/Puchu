@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+<body>
+
+    <p><b style="color: blue;"> Puchu </b></p>
+
+  </body>
+
+</html>
+</head>
+
+<body>
+
+    <p><b style="color: blue;">Introducing Puchu – a powerful and intuitive tool designed to revolutionize your file searching experience.</b></p>
+
+</body>
+
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Puchu: A File Search Engine</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            text-align: center;
+
+            margin-top: 50px;
+
+        }
+
+        .search-box {
+
+            width: 300px;
+
+            margin: 0 auto;
+
+        }
+
+        input[type="text"] {
+
+            width: 80%;
+
+            padding: 10px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 5px;
+
+        }
+
+        input[type="submit"] {
+
+            padding: 10px 15px;
+
+            background-color: #007BFF;
+
+            color: white;
+
+            border: none;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+        }
+
+        input[type="submit"]:hover {
+
+            background-color: #0056b3;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Puchu: A File Search Engine</h1>
+
+    <form action="https://www.google.com/search" method="get" class="search-box" id="searchForm">
+
+        <input type="text" name="q" id="query" placeholder="Enter file name or keywords">
+
+        <select name="filetype" id="filetype">
+
+            <option value="pdf">PDF</option>
+
+            <option value="doc">Word Documents</option>
+
+            <option value="ppt">PowerPoint</option>
+
+            <option value="xls">Excel</option>
+
+            <option value="txt">Text Files</option>
+
+        </select>
+
+        <input type="submit" value="Search Files">
+
+    </form>
+
+    <script>
+
+        // Get form elements
+
+        const form = document.getElementById('searchForm');
+
+        const queryInput = document.getElementById('query');
+
+        const fileTypeSelect = document.getElementById('filetype');
+
+        // Clear text when input is focused
+
+        queryInput.addEventListener('focus', function() {
+
+            this.value = '';
+
+        });
+
+        // Update query value with keywords and file type
+
+        form.addEventListener('submit', function(event) {
+
+            event.preventDefault();  // Prevent the form from submitting immediately
+
+            const keywords = queryInput.value.trim();
+
+            const filetype = fileTypeSelect.value;
+
+            queryInput.value = `${keywords} filetype:${filetype}`;
+
+            
+
+            // Submit the form after updating the value
+
+            form.submit();
+
+        });
+
+    </script>
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Website Link</title>
+
+</head>
+
+<body>
+
+    <h1> </h1>
+
+    <a href="https://www.meta.ai/" target="_blank">Ask Llama</a>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> </title>
+
+</head>
+
+<body>
+
+    <h1></h1>
+
+    <a href="https://gemini.google.com/?hl=en-IN" target="_blank">Ask Gemini</a>
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> </title>
+
+</head>
+
+<body>
+
+    <h1></h1>
+
+    <a href="https://www.perplexity.ai/" target="_blank">Ask Perplexity </a>
+
+</body>
+
+</html>
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> </title>
+
+</head>
+
+<body>
+
+    <h1></h1>
+
+    <a href="https://share.character.ai/Wv9R/zx9w6887" target="_blank"> 📞Start a voice call directly with Shaniram AI </a>
+
+</body>
+
+</html>
+
+<footer>
+
+    <div style="background-color: #f8f9fa; padding: 20px; text-align: center; margin-top: 50px;">
+
+        <p>&copy; 2024 Puchu. All Rights Reserved.</p>
+
+        <p>Designed with love to make file searching easier.</p>
+
+        <p>
+
+            <a href="https://shaniram.blogspot.com/2024/12/about-puchu.html?m=1" target="_blank">About</a> | 
+
+            <a href="https://shaniram.blogspot.com/2024/12/terms-of-service.html?m=1" target="_blank">Terms of Service</a> |
+
+          
+
+                   <a href="https://shaniram.blogspot.com/2024/11/blog-post.html?m=1" target="_blank">Beta Program</a>
+
+        </p>
+
+        <p>
+
+            Follow us on:
+
+            <a href="https://www.facebook.com/profile.php?id=61556823688942&mibextid=ZbWKwL" target="_blank">Facebook</a> |
+
+            <a href="https://x.com/shaniramhemram" target="_blank">X</a> 
+
+            
+
+        </p>
+
+    </div>
+
+</footer>
+
+       
+ 
+    
