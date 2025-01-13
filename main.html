@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+<body>
+
+    <p><b style="color: blue;"> Puchu </b></p>
+
+  </body>
+
+</html>
+</head>
+
+<body>
+
+    <p><b style="color: blue;">Introducing Puchu – a powerful and intuitive tool designed to revolutionize your file searching experience.</b></p>
+
+</body>
+
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Puchu: A File Search Engine</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            text-align: center;
+
+            margin-top: 50px;
+
+        }
+
+        .search-box {
+
+            width: 300px;
+
+            margin: 0 auto;
+
+        }
+
+        input[type="text"] {
+
+            width: 80%;
+
+            padding: 10px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 5px;
+
+        }
+
+        input[type="submit"] {
+
+            padding: 10px 15px;
+
+            background-color: #007BFF;
+
+            color: white;
+
+            border: none;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+        }
+
+        input[type="submit"]:hover {
+
+            background-color: #0056b3;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Puchu: A File Search Engine</h1>
+
+    <form action="https://www.google.com/search" method="get" class="search-box" id="searchForm">
+
+        <input type="text" name="q" id="query" placeholder="Enter file name or keywords">
+
+        <select name="filetype" id="filetype">
+
+            <option value="pdf">PDF</option>
+
+            <option value="doc">Word Documents</option>
+          
+          <option value=" mp3">Audio Book</option>
+
+            <option value="ppt">PowerPoint</option>
+
+            <option value="xls">Excel</option>
+
+            <option value="txt">Text Files</option>
+
+        </select>
+
+        <input type="submit" value="Search Files">
+
+    </form>
+
+    <script>
+
+        // Get form elements
+
+        const form = document.getElementById('searchForm');
+
+        const queryInput = document.getElementById('query');
+
+        const fileTypeSelect = document.getElementById('filetype');
+
+        // Clear text when input is focused
+
+        queryInput.addEventListener('focus', function() {
+
+            this.value = '';
+
+        });
+
+        // Update query value with keywords and file type
+
+        form.addEventListener('submit', function(event) {
+
+            event.preventDefault();  // Prevent the form from submitting immediately
+
+            const keywords = queryInput.value.trim();
+
+            const filetype = fileTypeSelect.value;
+
+            queryInput.value = `${keywords} filetype:${filetype}`;
+
+            
+
+            // Submit the form after updating the value
+
+            form.submit();
+
+        });
+
+    </script>
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Website Link</title>
+
+</head>
+
+<body>
+
+    <h1> </h1>
+
+    <a href="https://www.meta.ai/" target="_blank">Ask Llama</a>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> </title>
+
+</head>
+
+<body>
+
+    <h1></h1>
+
+    <a href="https://gemini.google.com/?hl=en-IN" target="_blank">Ask Gemini</a>
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> </title>
+
+</head>
+
+<body>
+
+    <h1></h1>
+
+    <a href="https://www.perplexity.ai/" target="_blank">Ask Perplexity </a>
+
+</body>
+
+</html>
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> </title>
+
+</head>
+
+<body>
+
+    <h1></h1>
+
+    <a href="https://archive.org/details/the-power-of-prompt-by-shaniram-hemram_202501" target="_blank"> Read latest AI Prompt book by Shaniram </a>
+
+</body>
+
+</html>
+
+<footer>
+
+    <div style="background-color: #f8f9fa; padding: 20px; text-align: center; margin-top: 50px;">
+
+        <p>&copy; 2024 Puchu. All Rights Reserved.</p>
+
+        <p>Designed with love to make file searching easier.</p>
+
+        <p>
+       
+            <a href="https://shaniram.blogspot.com/2024/12/about-puchu.html?m=1" target="_blank">About</a> | 
+
+            <a href="https://shaniram.blogspot.com/2024/12/terms-of-service.html?m=1" target="_blank">Terms of Service</a> |
+
+          
+
+                   <a <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blinking Text Example</title>
+  <style>
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    .blink {
+      animation: blink 3s infinite;
+    }
+    .red {
+      color: red;
+    }
+    .blue {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+    <a href="https://i.postimg.cc/WjzSq25r/Your-support-can-help-us-enhance-features-improve-user-experience-and-bri-20241229-122325-0000.png" target="_blank" class="blink blue">
+      Support My Project
+    </a>
+  </h1></a>
+
+        </p>
+
+        <p>
+
+            Follow me on:
+
+            <a href="https://www.facebook.com/profile.php?id=61556823688942&mibextid=ZbWKwL" target="_blank">Facebook</a> |
+<a href="https://www.instagram.com/shaniramhemram2/profilecard/?igsh=MXh5YW80cjV3YXI1dg==" target="_blank">Instagram</a> |
+            <a href="https://x.com/shaniramhemram" target="_blank">X</a> 
+
+            
+
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Puchu Donation</title>
+
+    <style>
+
+        /* Styles for the popup */
+
+        #donationPopup {
+
+            display: none;
+
+            position: fixed;
+
+            top: 20px;
+
+            left: 50%;
+
+            transform: translateX(-50%);
+
+            background-color: #ffffff;
+
+            border: 1px solid #ddd;
+
+            border-radius: 8px;
+
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+            width: 90%;
+
+            max-width: 300px;
+
+            padding: 15px;
+
+            z-index: 1000;
+
+            text-align: center;
+
+        }
+
+        #donationPopup h2 {
+
+            margin: 0 0 10px;
+
+            font-size: 16px;
+
+            color: #333;
+
+            font-weight: bold;
+
+        }
+
+        #donationPopup p {
+
+            font-size: 14px;
+
+            color: #555;
+
+            margin: 0 0 15px;
+
+        }
+
+        #donationPopup button {
+
+            padding: 8px 16px;
+
+            background-color: #007bff;
+
+            color: white;
+
+            border: none;
+
+            border-radius: 4px;
+
+            font-size: 14px;
+
+            cursor: pointer;
+
+            margin: 5px 0;
+
+        }
+
+        #donationPopup button:hover {
+
+            background-color: #0056b3;
+
+        }
+
+        #donationPopup #closeButton {
+
+            background-color: #6c757d;
+
+        }
+
+        #donationPopup #closeButton:hover {
+
+            background-color: #5a6268;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Popup -->
+
+    <div id="donationPopup">
+
+        <h2>Support Puchu</h2>
+
+        <p>Your donations help us improve and maintain the Puchu search engine. Every bit counts!</p>
+
+        <button onclick="redirectToDonate()">Donate Now</button>
+
+        <button id="closeButton" onclick="closePopup()">Close</button>
+
+    </div>
+
+    <!-- Main content -->
+
+    <div>
+
+        <h1></h1>
+
+        <p></p>
+
+    </div>
+
+    <script>
+
+        // Show the popup
+
+        window.onload = function() {
+
+            setTimeout(showPopup, 5000); // Show popup after 5 seconds
+
+        };
+
+        function showPopup() {
+
+            document.getElementById('donationPopup').style.display = 'block';
+
+        }
+
+        function closePopup() {
+
+            document.getElementById('donationPopup').style.display = 'none';
+
+        }
+
+        function redirectToDonate() {
+
+            window.location.href = "https://i.postimg.cc/WjzSq25r/Your-support-can-help-us-enhance-features-improve-user-experience-and-bri-20241229-122325-0000.png"; // Replace with your donation link
+
+        }
+
+    </script>
+
+</body>
+
+</html>
+
+
+            
+
+            
+            
