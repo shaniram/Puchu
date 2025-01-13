@@ -1,4 +1,42 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top-Right Create Account</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top-Right Create Account Section -->
+    <div class="top-right">
+        <button id="createAccountBtn">Create Account</button>
+    </div>
+
+    <!-- Hidden Form for Creating Account -->
+    <div id="createAccountForm" class="form-popup">
+        <div class="form-content">
+            <h2>Create an Account</h2>
+            <form id="accountForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <button type="submit">Sign Up</button>
+                <button type="button" id="closeFormBtn" class="cancel-btn">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
 
 <html lang="en">
 
